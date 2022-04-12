@@ -1,0 +1,88 @@
+
+.main{
+    /* background-color: whitesmoke; */
+    height: 100vh;
+    width: 95vw;
+    z-index: 5;
+}
+.marco{
+    position: absolute;
+    background-color: aquamarine;
+    height: 130vh;
+    width: 90vw;
+    margin-left: 10vh;
+    margin-top: 10vh;
+    border-top-left-radius: 100px;
+    z-index: -3;
+}
+.marco2{
+    position: absolute;
+    /* background-color: yellow; */
+    z-index: -3;
+    background-color: white;
+    height: 130vh;
+    width: 70vw;
+    margin-left: 26vw;
+    margin-top: 15vh;
+    border-top-left-radius: 100px;
+}
+.contenedorFoto{
+    background-color: black;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 27vw;
+    top: 18vh;
+}
+.fullName{
+    height: 15vw;
+    width: 50vw;
+    /* background-color: yellow; */
+    position: absolute;
+    left: 45vw;
+    top: 18vh;
+    font-weight: 500;
+    font-size: 4.5vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    /* align-items: center; */
+    justify-items: center;
+    align-content: center;
+}
+.contenidoLateral{
+    width: 17vw;
+    line-height: 1.4;
+    position: absolute;
+    top: 56vh;
+    left: 5vw;
+    margin-left: 2.5vw;
+    /* background-color: yellow; */
+    max-height: 500px;
+    /* font-size: 1.2vw; */
+    font-size: 1rem;
+}
+.contenidoLateral h4{
+    margin-top: 10px;
+}
+.contenidoLateral li{
+    margin-left: 20px;
+}
+.destacado{
+    /* background-color: yellow; */
+    width: 65vw;
+    position: absolute;
+    top: 60vh;
+    left: 30vw;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-evenly;
+}
+.destacado li{
+    margin-left: 30px;
+}
+.destacado h3{
+    margin-top: 20px;
+    margin-left: -15px;
+}
