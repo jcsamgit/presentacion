@@ -5,7 +5,7 @@ import '../CSS/logo.css';
 
 function Logo() {
   return (
-    <div className="App">
+    <div className="logo">
       {/* <header className="App-header"> */}
         <img src={logo2} className="App-logo" alt="logo" />
       {/* </header> */}

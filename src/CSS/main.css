@@ -6,42 +6,58 @@
     z-index: 5;
 }
 .marco{
-    position: absolute;
+    /* position: absolute; */
     background-color: aquamarine;
-    height: 130vh;
+    height: 155vh;
     width: 90vw;
-    margin-left: 10vh;
-    margin-top: 10vh;
+    margin-left: 5vh;
+    margin-top: 5vh;
     border-top-left-radius: 100px;
-    z-index: -3;
+    z-index: -10;
+    overflow: hidden;
 }
 .marco2{
-    position: absolute;
+    position: relative;
+    top: 6vh;
     /* background-color: yellow; */
-    z-index: -3;
     background-color: white;
-    height: 130vh;
+    z-index: 0;
+    height: 100%;
     width: 70vw;
-    margin-left: 26vw;
-    margin-top: 15vh;
+    margin-left: 21vw;
+    /* margin-top: 15vh; */
     border-top-left-radius: 100px;
+}
+.mainLogo{
+    position: absolute;
+    top:5vh;
+    /* margin-top: 20px; */
+    /* height: 5vh; */
+    margin-left: 3vw;
+    height: 21vw;
+    width: 21vw;
+    /* border-radius: 45%; */
+    /* width: 14vw; */
+    /* height: 29vh; */
+    /* background-color: #282c34; */
+
 }
 .contenedorFoto{
     background-color: black;
     height: 15vw;
     width: 15vw;
     border-radius: 50%;
-    position: absolute;
-    left: 27vw;
-    top: 18vh;
+    position: relative;
+    left: 15px;
+    top: 15px;
 }
 .fullName{
     height: 15vw;
     width: 50vw;
     /* background-color: yellow; */
     position: absolute;
-    left: 45vw;
-    top: 18vh;
+    left: 20vw;
+    top: 2vh;
     font-weight: 500;
     font-size: 4.5vw;
     display: flex;
@@ -51,12 +67,15 @@
     justify-items: center;
     align-content: center;
 }
+
+/* Lateral */
 .contenidoLateral{
     width: 17vw;
     line-height: 1.4;
     position: absolute;
-    top: 56vh;
-    left: 5vw;
+    top: 40vh;
+    left: 3vw;
+    margin-top: 3vw;
     margin-left: 2.5vw;
     /* background-color: yellow; */
     max-height: 500px;
@@ -69,14 +88,20 @@
 .contenidoLateral li{
     margin-left: 20px;
 }
+
+/* fin Lateral  */  
+
+
 .destacado{
     /* background-color: yellow; */
-    width: 65vw;
+    width: 68vw;
     position: absolute;
-    top: 60vh;
-    left: 30vw;
+    /* top: 60vh; */
+    top: 25vw;
+    margin-top: 3vw;
+    left: 26vw;
     display: flex;
-    flex-flow: nowrap;
+    flex-flow: wrap;
     justify-content: space-evenly;
 }
 .destacado li{
@@ -85,4 +110,47 @@
 .destacado h3{
     margin-top: 20px;
     margin-left: -15px;
+}
+
+.itemLogo{
+    height: 17vw;
+    width: 17vw;
+    position: relative;
+    cursor: pointer;
+}
+.parrafoLogo:hover{
+    /* background-color: grey; */
+    background-color: #282c34;
+}
+.parrafoLogo:focus-visible{
+    background-color: yellow;
+}
+.parrafoLogo{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 18vw;
+    width: 100%;
+    top: -1vw;
+    position: absolute;
+}
+.itemLogoContainer{
+    /* background-color: blue; */
+    display: flex;
+    width: 90vw;
+}
+.concepto{
+    color: white;
+    /* background-color: #282c34; */
+    margin-top: -2vw;
+    padding: 3vw;
+
+}
+.contenedorConceptos{
+    background-color: #282c34;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    /* margin-top: -15px; */
 }
