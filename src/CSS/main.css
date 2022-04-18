@@ -3,6 +3,11 @@ a{
     color: rgb(120,238,255);
     margin-left: 7px;
 }
+.contenedorFoto img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
 
 @media only screen and (max-width:550px){
     .decorativo{

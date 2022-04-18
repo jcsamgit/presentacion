@@ -5,11 +5,11 @@ export default function FotoFullName() {
                   
             <div className='marco2'>
                 <div className='contenedorFoto'>
-                    <img src='../multimedia/perfil.jpg'></img>
+                    <img src='https://github.com/jcsamgit/presentacion/blob/master/src/multimedia/perfil.jpg?raw=true'></img>
                 </div>
                 <div className='fullName'>
                     <p>Julio Gerald</p>
-                    <p>Castañeira</p>
+                    <p>Castañeira Vargas</p>
                 </div>
                 
             </div>
