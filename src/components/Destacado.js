@@ -8,7 +8,6 @@ import Proyectos from './Proyectos'
 export default function Destacado() {
     const[mostrar, setMostrar]=useState("")
     let array=["Educación", "Aptitudes", "Proyectos", "Experiencia"]
-    // console.log("mostrar",mostrar)
   return (
     <div className='destacado'>
 
@@ -27,9 +26,9 @@ export default function Destacado() {
 
         <div className='contenedorConceptos'>
             {mostrar=="Educación"?<Educacion/>: false}
-            {mostrar=="Aptitudes"?<Aptitudes/>:null}
-            {mostrar=="Proyectos"?<Proyectos/>:null}
-            {mostrar=="Experiencia"?<Experiencia/>:null}
+            {mostrar=="Aptitudes"?<Aptitudes/>:false}
+            {mostrar=="Proyectos"?<Proyectos/>:false}
+            {mostrar=="Experiencia"?<Experiencia/>:false}
         </div>
     </div>
   )

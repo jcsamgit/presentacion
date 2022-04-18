@@ -18,8 +18,5 @@ export default function Aptitudes(props) {
             <li>JavaScript, JQuery (avanzado)</li>
             <li>Boostrap y material ui (intermedio)</li>
         </div>
-    
-
-
   )
 }

@@ -14,14 +14,13 @@ export default function Main() {
             <div className='mainLogo'>
                 <Logo/>
             </div>
-            
         </div>
+
         <div className='marco'>
             <Lateral/>
             <FotoFullName/>
         </div>
         
-
         <Destacado/>
         
         <div className='decorativo'></div>

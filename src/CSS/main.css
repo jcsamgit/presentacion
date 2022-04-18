@@ -2,11 +2,15 @@
 a{
     color: rgb(120,238,255);
     margin-left: 7px;
+    text-decoration-line: none;
 }
 .contenedorFoto img{
     height: 100%;
     width: 100%;
     border-radius: 50%;
+}
+.contenedorConceptos li{
+    line-height: 1.8;
 }
 
 @media only screen and (max-width:550px){
