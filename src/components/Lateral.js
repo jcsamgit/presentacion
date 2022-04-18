@@ -12,9 +12,11 @@ export default function Lateral() {
             <ul>
                 <li>Desarmar, reparar y armar aparatos</li>
                 <li>Juegos de estrategias como el ajedrez</li>
-                <li>Conducir mi auto</li>
+                <li>Conducir auto</li>
                 <li>Crear macros con jitbit</li>
             </ul>
         </div>
   )
 }
+
+

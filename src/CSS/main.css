@@ -1,156 +1,433 @@
 
-.main{
-    /* background-color: whitesmoke; */
-    height: 100vh;
-    width: 95vw;
-    z-index: 5;
-}
-.marco{
-    /* position: absolute; */
-    background-color: aquamarine;
-    height: 155vh;
-    width: 90vw;
-    margin-left: 5vh;
-    margin-top: 5vh;
-    border-top-left-radius: 100px;
-    z-index: -10;
-    overflow: hidden;
-}
-.marco2{
-    position: relative;
-    top: 6vh;
-    /* background-color: yellow; */
-    background-color: white;
-    z-index: 0;
-    height: 100%;
-    width: 70vw;
-    margin-left: 21vw;
-    /* margin-top: 15vh; */
-    border-top-left-radius: 100px;
-}
-.mainLogo{
-    position: absolute;
-    top:5vh;
-    /* margin-top: 20px; */
-    /* height: 5vh; */
-    margin-left: 3vw;
-    height: 21vw;
-    width: 21vw;
-    /* border-radius: 45%; */
-    /* width: 14vw; */
-    /* height: 29vh; */
-    /* background-color: #282c34; */
-
-}
-.contenedorFoto{
-    background-color: black;
-    height: 15vw;
-    width: 15vw;
-    border-radius: 50%;
-    position: relative;
-    left: 15px;
-    top: 15px;
-}
-.fullName{
-    height: 15vw;
-    width: 50vw;
-    /* background-color: yellow; */
-    position: absolute;
-    left: 20vw;
-    top: 2vh;
-    font-weight: 500;
-    font-size: 4.5vw;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    /* align-items: center; */
-    justify-items: center;
-    align-content: center;
+a{
+    color: rgb(120,238,255);
+    margin-left: 7px;
 }
 
-/* Lateral */
-.contenidoLateral{
-    width: 17vw;
-    line-height: 1.4;
-    position: absolute;
-    top: 40vh;
-    left: 3vw;
-    margin-top: 3vw;
-    margin-left: 2.5vw;
-    /* background-color: yellow; */
-    max-height: 500px;
-    /* font-size: 1.2vw; */
-    font-size: 1rem;
-}
-.contenidoLateral h4{
-    margin-top: 10px;
-}
-.contenidoLateral li{
-    margin-left: 20px;
+@media only screen and (max-width:550px){
+    .decorativo{
+        position: absolute;
+        top: 0;
+        z-index: -11;
+        height: 380px;
+        width: 100%;
+        background: rgb(120,238,255);
+        background: linear-gradient(180deg, rgba(120,238,255,0.9248074229691877) 0%, rgba(255,255,255,0.969625350140056) 69%, rgba(255,255,255,1) 100%);
+    }
+
+    .mainLogoContainer{
+        width: 100%;
+        position: absolute;
+        top: 280px;
+        display: flex;
+        justify-content: center;
+    }
+    .mainLogo{
+    width: 170px;
+    }  
+
+    /* marco2 contenedor de foto y nombre completo */
+    .marco2{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 1px;
+        padding: 10px;
+        z-index: -1;
+    }
+    .contenedorFoto{
+        background-color: black;
+        height: 148px;
+        width: 148px;
+        border-radius: 50%;
+        margin: 10px;
+    } 
+    .fullName{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .contenidoLateral{
+        background: rgb(120,238,255);
+        background: linear-gradient(0deg, rgba(120,238,255,0.9248074229691877) 0%, rgba(255,255,255,0.969625350140056) 69%, rgba(255,255,255,1) 100%);
+        margin-top: 395px;
+        text-align: center;
+        padding: 0px 20px 25px 25px;
+    }
+    .contenidoLateral h4{
+        margin: 25px 0 10px 0;
+    }
+    .contenidoLateral ul li{
+        list-style-type: none;
+    }
+
+    .destacado{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        align-self: center;
+        justify-self: center;
+    }
+    .destacado li{
+        margin-left: 30px;
+    }
+    .destacado h3{
+        margin-top: 20px;
+        margin-left: -15px;
+    }
+
+    .itemLogoContainer{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        height: 23vw;
+        width: 100%;
+    }
+    .logoContainer{
+        height: 75%;
+    }
+    .itemLogo{
+        height: 100%;
+        width: 19vw;
+        position: relative;
+        cursor: pointer;
+    }
+    .itemLogo:hover{
+        background-color: #282c34;
+    }
+    .parrafoLogo{
+        font-size: 13px;
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+    .contenedorConceptos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .concepto{
+        background-color: #282c34;
+        width: 100%;
+        padding-bottom: 20px;
+
+    }
+
+    .concepto h3{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .concepto h4{
+        margin: 5px 0 10px 10px;
+    }
+    .concepto ul{
+        margin: 0px 0 10px 10px;
+    }
+    body{
+        height: 140vh;
+    }
 }
 
-/* fin Lateral  */  
 
 
-.destacado{
-    /* background-color: yellow; */
-    width: 68vw;
-    position: absolute;
-    /* top: 60vh; */
-    top: 25vw;
-    margin-top: 3vw;
-    left: 26vw;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-evenly;
-}
-.destacado li{
-    margin-left: 30px;
-}
-.destacado h3{
-    margin-top: 20px;
-    margin-left: -15px;
-}
 
-.itemLogo{
-    height: 17vw;
-    width: 17vw;
-    position: relative;
-    cursor: pointer;
-}
-.parrafoLogo:hover{
-    /* background-color: grey; */
-    background-color: #282c34;
-}
-.parrafoLogo:focus-visible{
-    background-color: yellow;
-}
-.parrafoLogo{
-    text-align: center;
-    color: white;
-    background-color: black;
-    height: 18vw;
-    width: 100%;
-    top: -1vw;
-    position: absolute;
-}
-.itemLogoContainer{
-    /* background-color: blue; */
-    display: flex;
-    width: 90vw;
-}
-.concepto{
-    color: white;
-    /* background-color: #282c34; */
-    margin-top: -2vw;
-    padding: 3vw;
 
-}
-.contenedorConceptos{
-    background-color: #282c34;
-    width: 95vw;
-    display: flex;
-    justify-content: center;
-    padding-left: 0px;
-    /* margin-top: -15px; */
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+
+@media only screen and (min-width: 550px){
+    .decorativo{
+        display: none;
+    }
+    
+    .main{
+        height: 100vh;
+        width: 95vw;
+        z-index: 5;
+    }
+    .marco{
+        background-color: rgb(120,238,255);
+        height: 170vh;
+        width: 90vw;
+        margin-left: 5vh;
+        margin-top: 5vh;
+        border-top-left-radius: 100px;
+        z-index: -10;
+        overflow: hidden;
+    }
+    .marco2{
+        position: relative;
+        top: 6vh;
+        background-color: white;
+        z-index: 0;
+        height: 100%;
+        width: 70vw;
+        margin-left: 21vw;
+        border-top-left-radius: 100px;
+        
+    }
+    .mainLogo{
+        position: absolute;
+        top:50px;
+        margin-left: 50px;
+        height: 19vw;
+        width: 19vw;
+    }
+    .contenedorFoto{
+        background-color: black;
+        height: 15vw;
+        width: 15vw;
+        border-radius: 50%;
+        position: relative;
+        left: 25px;
+        top: 25px;
+    }
+    .fullName{
+        height: 15vw;
+        width: 50vw;
+        position: absolute;
+        left: 20vw;
+        top: 2vh;
+        font-weight: 500;
+        font-size: 4.5vw;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+    }
+    
+    /* Lateral */
+    .contenidoLateral{
+        width: 17vw;
+        line-height: 1.4;
+        position: absolute;
+        top: 150px;
+        left: 3vw;
+        margin-top: 3vw;
+        margin-left: 4vw;
+        max-height: 500px;
+        font-size: 1rem;
+    }
+    .contenidoLateral h4{
+        margin-top: 10px;
+    }
+    .contenidoLateral li{
+        margin-left: 20px;
+    }
+    /* fin Lateral  */  
+    
+    
+    .destacado{
+        width: 63vw;
+        position: absolute;
+        top: 25vw;
+        margin-top: 45px;
+        left: 29vw;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-evenly;
+    }
+    .destacado li{
+        margin-left: 30px;
+    }
+    .destacado h3{
+        margin-top: 20px;
+        margin-left: -15px;
+    }
+    
+    .itemLogo{
+        height: 100%;
+        width: 17vw;
+        position: relative;
+        cursor: pointer;
+    }
+    .logoContainer{
+        height: 75%;
+    }
+    .itemLogo:hover{
+
+        background-color: #282c34;
+    }
+    .parrafoLogo{
+        text-align: center;
+        color: white;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .itemLogoContainer{
+        background-color: black;
+        display: flex;
+        width: 100%;
+        height: 19vw;
+    }
+    .contenedorConceptos{
+        width: 95vw;
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+        background-color: #282c34;
+    }
+    
+    .concepto{
+        color: white;
+        margin-top: -2vw;
+        padding: 3vw;
+    }
+
+
+    }
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 700px){
+    .decorativo{
+        display: none;
+    }
+        
+    .main{
+        height: 100vh;
+        width: 95vw;
+        z-index: 5;
+    }
+    .marco{
+        background-color: rgb(120,238,255);
+        height: 160vh;
+        width: 90vw;
+        margin-left: 5vh;
+        margin-top: 5vh;
+        border-top-left-radius: 100px;
+        z-index: -10;
+        overflow: hidden;
+    }
+    .marco2{
+        position: relative;
+        top: 6vh;
+        background-color: white;
+        z-index: 0;
+        height: 100%;
+        width: 70vw;
+        margin-left: 21vw;
+        border-top-left-radius: 100px;
+    }
+    .mainLogo{
+        position: absolute;
+        top: 40px;
+        margin-left: 40px;
+        height: 21vw;
+        width: 21vw;
+    }
+    .contenedorFoto{
+        background-color: black;
+        height: 15vw;
+        width: 15vw;
+        border-radius: 50%;
+        position: relative;
+        left: 15px;
+        top: 15px;
+    }
+    .fullName{
+        height: 15vw;
+        width: 50vw;
+        position: absolute;
+        left: 20vw;
+        top: 2vh;
+        font-weight: 500;
+        font-size: 4.5vw;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+    }
+
+    /* Lateral */
+    .contenidoLateral{
+        width: 17vw;
+        line-height: 1.4;
+        position: absolute;
+        top: 23vw;
+        left: 3vw;
+        margin-top: 3vw;
+        margin-left: 2.5vw;
+        max-height: 500px;
+        font-size: 1rem;
+    }
+    .contenidoLateral h4{
+        margin-top: 10px;
+    }
+    .contenidoLateral li{
+        margin-left: 20px;
+    }
+    /* fin Lateral  */  
+
+
+    .destacado{
+        width: 68vw;
+        position: absolute;
+        top: 25vw;
+        margin-top: 3vw;
+        left: 26vw;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-evenly;
+    }
+    .destacado li{
+        margin-left: 30px;
+    }
+    .destacado h3{
+        margin-top: 20px;
+        margin-left: -15px;
+    }
+    
+    .itemLogoContainer{
+        background-color: black;
+        display: flex;
+        width: 90vw;
+        height: 20vw;
+    }
+    .logoContainer{
+        height: 75%;
+    }
+    .itemLogo{
+        height: 100%;
+        width: 17vw;
+        position: relative;
+        cursor: pointer;
+    }
+    .itemLogo:hover{
+        background-color: #282c34;
+    }
+    .parrafoLogo{
+        text-align: center;
+        color: white;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .contenedorConceptos{
+        width: 95vw;
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+        background-color: #282c34;
+    }
+    .concepto{
+        color: white;
+        margin-top: -2vw;
+        padding: 3vw;
+    }
+
 }

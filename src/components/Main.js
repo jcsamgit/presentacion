@@ -2,32 +2,29 @@
 import React from 'react'
 import '../CSS/main.css'
 import Destacado from './Destacado'
+import FotoFullName from './FotoFullName'
 import Lateral from './Lateral'
 import Logo from './Logo'
 
 export default function Main() {
   return (
     <div className='main'>
+
+        <div className='mainLogoContainer'>
+            <div className='mainLogo'>
+                <Logo/>
+            </div>
+            
+        </div>
         <div className='marco'>
             <Lateral/>
-            
-            <div className='marco2'>
-                <div className='contenedorFoto'>
-
-                </div>
-                <div className='fullName'>
-                    <p>NOMBRE NOMBRE</p>
-                    <p>APELLIDO APELLIDO</p>
-                </div>
-                
-            </div>
-
+            <FotoFullName/>
         </div>
         
-        <div className='mainLogo'>
-            <Logo/>
-        </div>
+
         <Destacado/>
+        
+        <div className='decorativo'></div>
 
     </div>
   )

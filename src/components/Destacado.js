@@ -18,8 +18,9 @@ export default function Destacado() {
 
                 <div key={item.toString()} className='itemLogo' onClick={()=> setMostrar(item)}>
                     <p className='parrafoLogo' id={item}>{item}</p>
-
-                    <Logo/>
+                    <div className='logoContainer'>
+                        <Logo/>
+                    </div>
                 </div>
             )}
         </div>
