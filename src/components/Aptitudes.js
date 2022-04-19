@@ -9,12 +9,12 @@ export default function Aptitudes(props) {
             <li>Data Entry (avanzado)</li>
             <li>Manejos de macros(avanzado)</li>
             <li>Word, Excel, Power Point (intermedio-avanzado)</li>
-            <li>Lenguaje C (basico)</li>
-            <li>SQLite(basico)</li>
+            <li>Lenguaje C (básico)</li>
+            <li>SQLite(básico)</li>
             <li>Visual Studio Code(avanzado)</li>
             <li>GIT y GitHub (intermedio-avanzado)</li>
             <li>HTML, CSS, SASS, SEO (avanzado)</li>
-            <li>Fire base (intermedio)</li>
+            <li>Firebase (básico)</li>
             <li>JavaScript, JQuery (avanzado)</li>
             <li>Boostrap y material ui (intermedio)</li>
         </div>
