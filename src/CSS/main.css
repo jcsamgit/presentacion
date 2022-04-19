@@ -13,7 +13,8 @@ a{
     line-height: 1.8;
 }
 
-@media only screen and (max-width:550px){
+
+@media only screen and (max-width:580px){
     .decorativo{
         position: absolute;
         top: 0;
@@ -32,7 +33,7 @@ a{
         justify-content: center;
     }
     .mainLogo{
-    width: 170px;
+        width: 170px;
     }  
 
     /* marco2 contenedor de foto y nombre completo */
@@ -58,7 +59,8 @@ a{
         font-size: 1.5rem;
         text-align: center;
     }
-    .contenidoLateral{
+    /* este es el contenido que en pantallas grandes estaria en el lateral izquierdo */
+    .contenidoLateral{ 
         background: rgb(120,238,255);
         background: linear-gradient(0deg, rgba(120,238,255,0.9248074229691877) 0%, rgba(255,255,255,0.969625350140056) 69%, rgba(255,255,255,1) 100%);
         margin-top: 395px;
@@ -153,7 +155,7 @@ a{
 /* ------------------------------------------------------------------------------------------- */
 
 
-@media only screen and (min-width: 550px){
+@media only screen and (min-width: 580px){
     .decorativo{
         display: none;
     }
@@ -165,13 +167,14 @@ a{
     }
     .marco{
         background-color: rgb(120,238,255);
-        height: 170vh;
+        height: 170vmax;
+        max-height: 950px;
         width: 90vw;
         margin-left: 5vh;
         margin-top: 5vh;
         border-top-left-radius: 100px;
         z-index: -10;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     .marco2{
         position: relative;
@@ -223,15 +226,19 @@ a{
         top: 150px;
         left: 3vw;
         margin-top: 3vw;
-        margin-left: 4vw;
+        margin-left: 2.5vw;
         max-height: 500px;
         font-size: 1rem;
+        
     }
     .contenidoLateral h4{
         margin-top: 10px;
     }
     .contenidoLateral li{
         margin-left: 20px;
+    }
+    .email{
+        font-size: 1.8vmax;
     }
     /* fin Lateral  */  
     
@@ -301,7 +308,7 @@ a{
 
 
 /* --------------------------------------------------------------------------------------------- */
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 800px){
     .decorativo{
         display: none;
     }
@@ -313,7 +320,8 @@ a{
     }
     .marco{
         background-color: rgb(120,238,255);
-        height: 160vh;
+        height: 100vmax;
+        max-height: 1150px;
         width: 90vw;
         margin-left: 5vh;
         margin-top: 5vh;
@@ -380,6 +388,9 @@ a{
     .contenidoLateral li{
         margin-left: 20px;
     }
+    .email{
+        font-size: 90%;
+    }
     /* fin Lateral  */  
 
 
@@ -438,5 +449,6 @@ a{
         margin-top: -2vw;
         padding: 3vw;
     }
-
+    
 }
+

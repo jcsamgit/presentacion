@@ -6,8 +6,8 @@ export default function Lateral() {
             <h4>Perfil</h4>
             <p>Creativo, responsable y autodidactico. Muy bueno con los algoritmos, las matemáticas y la tecnologia; destacando la inteligencia lógica y analítica.</p>
             <h4>Contacto</h4>
-            <p>Telefono: 1132585929</p>
-            <p>Email: jcv.gerald@gmail.com</p>
+            <p>Telefono:<br></br> 11-32585929</p>
+            <p>Email:<br></br> <span className='email'>jcv.gerald@gmail.com</span></p>
             <h4>Aficiones</h4>
             <ul>
                 <li>Desarmar, reparar y armar aparatos</li>
