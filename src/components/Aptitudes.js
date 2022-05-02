@@ -16,7 +16,7 @@ export default function Aptitudes(props) {
             <li>HTML, CSS, SASS, SEO (avanzado)</li>
             <li>Firebase (básico)</li>
             <li>JavaScript, JQuery (avanzado)</li>
-            <li>Boostrap y material ui (intermedio)</li>
+            <li>Bootstrap y material ui (intermedio)</li>
         </div>
   )
 }

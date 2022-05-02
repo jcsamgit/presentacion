@@ -8,7 +8,7 @@ import Logo from './Logo'
 
 export default function Main() {
   return (
-    <div className='main'>
+    <div className='main' id='main'>
 
         <div className='mainLogoContainer'>
             <div className='mainLogo'>
