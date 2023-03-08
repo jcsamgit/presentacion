@@ -6,7 +6,7 @@ import Logo from './Logo'
 import Proyectos from './Proyectos'
 
 export default function Destacado() {
-    const[mostrar, setMostrar]=useState("")
+    const[mostrar, setMostrar]=useState("Educación")
     let array=["Educación", "Aptitudes", "Proyectos", "Experiencia"]
   return (
     <div className='destacado'>
