@@ -427,6 +427,18 @@ a{
         position: relative;
         cursor: pointer;
     }
+     */
+    /* svg .logoColor,svg #logoColor{
+        fill: yellow;
+        background-color: blue;
+    } */
+    /* @keyframes intermitente{
+        0%{visibility: hidden;display: none; background-color: #282c34;}
+        50%{visibility: visible; background-color: #282c34;}
+        000%{visibility: hidden; background-color: black;}
+    } */
+
+    
     .itemLogo:hover{
         background-color: #282c34;
     }

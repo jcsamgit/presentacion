@@ -6,7 +6,7 @@ export default function Educacion(props) {
         <div className='concepto educacion' style={dinamico}>
             <h3>EDUCACION</h3>
             <h4>Coderhouse</h4>
-            <ul>Desarollador Frontend React (septiembre 2021):<a href='https://www.coderhouse.com/certificados/6179c8375e3d990020befc88'>Ver mas...</a>
+            <ul>Desarrollador Frontend React (septiembre 2021):<a href='https://www.coderhouse.com/certificados/6179c8375e3d990020befc88'>Ver mas...</a>
                 <li>React Js (junio-septiembre)
                     <a href='https://www.coderhouse.com/certificados/6158706be59b1d004313b15e'>Ver mas...</a>
                 </li>
