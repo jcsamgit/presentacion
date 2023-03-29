@@ -8,9 +8,31 @@ a{
     height: 100%;
     width: 100%;
     border-radius: 50%;
+    box-shadow: 0 0 5px 3px black;
 }
 .contenedorConceptos li{
     line-height: 1.8;
+}
+.concepto a:hover{
+    color: lightblue;
+    text-shadow: 0 0 8px white;
+    font-style: italic;
+}
+.itemLogo{
+    background-color: black;
+    border: none;
+}
+
+.itemLogo:hover, .itemLogo:focus{
+    background-color: #282c34;
+    outline: none;
+}
+
+.itemLogo:focus-visible{
+    background-color: #282c34;
+    /* background-color: yellow; */
+    /* outline: none; */
+
 }
 
 
@@ -108,11 +130,11 @@ a{
         position: relative;
         cursor: pointer;
     }
-    .itemLogo:hover{
+    /* .itemLogo:hover{
         background-color: #282c34;
-    }
+    } */
     .parrafoLogo{
-        font-size: 13px;
+        font-size: 11px;
         text-align: center;
         color: white;
         width: 100%;
@@ -144,6 +166,7 @@ a{
     body{
         height: 140vh;
     }
+    
 }
 
 
@@ -270,10 +293,10 @@ a{
     .logoContainer{
         height: 75%;
     }
-    .itemLogo:hover{
+    /* .itemLogo:hover{
 
         background-color: #282c34;
-    }
+    } */
     .parrafoLogo{
         text-align: center;
         color: white;
@@ -438,14 +461,13 @@ a{
     } */
 
     
-    .itemLogo:hover{
-        background-color: #282c34;
-    }
+
     .parrafoLogo{
         text-align: center;
         color: white;
         width: 100%;
         padding-top: 10px;
+        font-size: 17px;
     }
 
     .contenedorConceptos{

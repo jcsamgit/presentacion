@@ -6,6 +6,22 @@
     height: 100%;
     border-radius: 50%;
   }
+  .logo1{
+    display: none;
+    /* revisar */
+  }
+  #center{
+    /* fill: white; */
+    animation-name: camaleon;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+  }
+  @keyframes camaleon{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+  }
   
   .App-logo {
     pointer-events: none;
@@ -13,10 +29,22 @@
     height: 100%;
     border-radius: 50%;
   }
+  /* #bbb{
+    fill: white;
+  } */
+  .bbb{
+    fill: #61DAFB;
+    /* background-color: yellow; */
+    border-radius: 50%;
+    width: 90%;
+    height: 100%;
+    /* display: none; */
+  }
   
   @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
+    .bbb {
       animation: App-logo-spin infinite 7.195s linear;
+      transition: 9s;
     }
   }
   
@@ -28,3 +56,21 @@
       transform: rotate(360deg);
     }
   }
+  
+  .itemLogo:active .bbb {
+    animation-play-state: running;
+  }
+  
+  .itemLogo:focus .bbb {
+    animation: my-animation .19s linear infinite;
+  }
+  
+  @keyframes my-animation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

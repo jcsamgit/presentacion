@@ -15,6 +15,9 @@ export default function Proyectos(props) {
           <li>Gym (con HTML y JAVASCRIPT)
             <a href='https://jcsamgit.github.io/gym/'>Ver mas...</a>
           </li>
+          <li>Menu oriental (con HTML)
+            <a href='https://jcsamgit.github.io/tsuki-food/'>Ver mas...</a>
+          </li>
           <li>Catologo online (con HTML y bootstrap)
             <a href='https://jcsamgit.github.io/Proyecto-bikes.html/'>Ver mas...</a>
           </li>
