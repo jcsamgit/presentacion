@@ -19,22 +19,22 @@ export default function Destacado() {
     <div className='destacado'>
 
         <div className='itemLogoContainer'>
-        {
-            array.map((item, index) =>
-            <button
-                key={item.toString()}
-                id={item}
-                className='itemLogo'
-                onClick={() => setMostrar(item)}
-                ref={index === 0 ? enfoque : null} // referencia solo el primer botón
-            >
-                <p className='parrafoLogo'>{item}</p>
-                <div className='logoContainer'>
-                <Logo />
-                </div>
-            </button>
-            )
-        }
+            {
+                array.map((item, index) =>
+                <button
+                    key={item.toString()}
+                    id={item}
+                    className='itemLogo'
+                    onClick={() => setMostrar(item)}
+                    ref={index === 0 ? enfoque : null} // referencia solo el primer botón
+                >
+                    <p className='parrafoLogo'>{item}</p>
+                    <div className='logoContainer'>
+                    <Logo />
+                    </div>
+                </button>
+                )
+            }
         </div>
 
 
