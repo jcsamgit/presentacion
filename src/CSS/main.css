@@ -50,9 +50,11 @@ a{
     .mainLogoContainer{
         width: 100%;
         position: absolute;
-        top: 280px;
+        top: 250px;
         display: flex;
         justify-content: center;
+        height: 150px;
+        /* background-color: yellow; */
     }
     .mainLogo{
         width: 170px;
